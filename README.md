@@ -18,28 +18,40 @@ This repository contains the backend Django application for Clays, a note-taking
     cd clays-be
     ```
 
-2. **Install dependencies:**
+2. **Set up a Virtual Environment (optional but recommended):**
+
+    ```bash
+    # Create a virtual environment named 'venv'
+    python -m venv venv
+
+    # Activate the virtual environment
+    # On macOS/Linux:
+    source venv/bin/activate
+    # On Windows:
+    venv\Scripts\activate
+    ```
+
+3. **Install dependencies:**
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Apply migrations:**
+4. **Apply migrations:**
 
     ```bash
     python manage.py migrate
     ```
 
-4. **Run the development server:**
+5. **Run the development server:**
 
     ```bash
     python manage.py runserver
     ```
 
-5. **Access the application:**
+6. **Access the application:**
 
    Open a web browser and go to [http://localhost:8000](http://localhost:8000)
-
 ### Running with Docker
 
 You can also run this Django application using Docker for easier setup and environment isolation.
