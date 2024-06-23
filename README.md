@@ -36,14 +36,18 @@ This repository contains the backend Django application for Clays, a note-taking
     ```bash
     pip install -r requirements.txt
     ```
+4. **Go into project directory:**
 
-4. **Apply migrations:**
+    ```bash
+    cd notes_project
+    ```
+5. **Apply migrations:**
 
     ```bash
     python manage.py migrate
     ```
 
-5. **Run the development server:**
+6. **Run the development server:**
 
     ```bash
     python manage.py runserver
