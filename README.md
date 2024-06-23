@@ -73,10 +73,3 @@ You can also run this Django application using Docker for easier setup and envir
 
    Open a web browser and go to [http://localhost:8000](http://localhost:8000)
 
-### Additional Notes
-
-- **Environment Variables**: If your Django project requires environment variables (e.g., database settings), ensure they are properly configured either in your Dockerfile or via Docker Compose.
-
-- **Contributing**: Fork the repository, make changes, and submit pull requests. Contributions are welcome!
-
-- **License**: This project is licensed under the [MIT License](LICENSE).
