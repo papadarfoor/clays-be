@@ -1,4 +1,4 @@
-# Project Name
+# CLAYS NOTES BACKEND
 
 This is a Django project for the Clays note taking web application
 
